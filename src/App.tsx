@@ -1,10 +1,15 @@
-function App() {
+import { RouterProvider } from "react-router-dom";
+import { router } from "./router";
+import Header from "./components/header/Header";
+import './App.scss'
 
+function App() {
   return (
-    <>
-      <h1>Weather App</h1>
-    </>
+    <div className="container">
+      <Header />
+      <RouterProvider router={router} />
+    </div>
   )
 }
 
-export default App
+export default App;

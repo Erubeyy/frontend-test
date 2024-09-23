@@ -1,0 +1,21 @@
+.header{
+  height: 10.8rem;
+  background-color: var(--color-blue-50);
+  padding: 0 16rem;
+
+  @media (width <= 1000px){
+    padding: 0 7rem;
+  }
+
+  @media (width <= 600px){
+    padding: 0 5rem;
+  }
+
+  &__content{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}

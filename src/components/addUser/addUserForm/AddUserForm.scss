@@ -1,0 +1,21 @@
+.addUserForm{
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+
+  &__location{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2rem;
+  }
+}
+
+.submit{
+  border-radius: 10rem;
+  background-color: var(--color-blue-500);
+  padding: 1.5rem 2.4rem;
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin-top: 3.2rem;
+  color: var(--color-gray-50);
+}
